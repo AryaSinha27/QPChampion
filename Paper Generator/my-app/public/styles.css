@@ -1,0 +1,87 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  #logoPreview {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .section h2 {
+    margin-top: 0;
+  }
+  
+  .section textarea {
+    height: 100px;
+  }
+  
+  #questionSection {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .questionInput,
+  .marksInput {
+    width: calc(100% - 80px);
+    margin-bottom: 10px;
+  }
+  
+  .questionInput {
+    height: 80px;
+  }
+  
+  .marksInput {
+    width: 80px;
+    margin-left: 10px;
+  }
+  
+  @media (max-width: 480px) {
+    input[type="text"],
+    textarea,
+    .questionInput,
+    .marksInput {
+      width: 100%;
+    }
+  
+    #logoPreview {
+      max-width: 100%;
+    }
+  }
+  
